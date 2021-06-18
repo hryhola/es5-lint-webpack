@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack --watch",
+    "react": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-es5": "^1.5.0",
+    "eslint-plugin-import": "^2.23.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
